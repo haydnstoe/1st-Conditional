@@ -1,22 +1,248 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-GB">
 <head>
-  <title>Interactive Quiz</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>First Conditional – British English Lesson</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            max-width: 900px;
+        }
+        h1, h2 {
+            colour: #333;
+        }
+        .question {
+            margin-bottom: 18px;
+        }
+        .answers {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            background: #f7f7f7;
+        }
+        .btn {
+            padding: 10px 18px;
+            background: #2a6f97;
+            colour: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background: #1b4d6b;
+        }
+    </style>
 </head>
 <body>
-  <h1>HTML Basics Quiz</h1>
-  <form id="quiz-form">
-    <div>
-      <p>1. What does HTML stand for?</p>
-      <input type="radio" name="q1" value="a"> Home Tool Markup Language<br>
-      <input type="radio" name="q1" value="b"> HyperText Markup Language<br>
-      <input type="radio" name="q1" value="c"> Hyperlink Text Management Language<br>
-    </div>
-    <button type="button" onclick="submitQuiz()">Submit</button>
-  </form>
-  <div id="result"></div>
 
-  <script src="script.js"></script>
+<h1>First Conditional – British English Lesson</h1>
+
+<p>
+The first conditional describes real and possible future situations.  
+We form it with:
+</p>
+
+<ul>
+    <li><strong>If + present simple</strong>, <strong>will + infinitive</strong></li>
+    <li>or the reverse order: <strong>Will + infinitive … if + present simple</strong></li>
+</ul>
+
+<p>Examples:</p>
+<ul>
+    <li>If it <em>rains</em>, we <em>will stay</em> at home.</li>
+    <li>We <em>will miss</em> the bus if we <em>don’t leave</em> now.</li>
+</ul>
+
+<h2>Cloze Test (15 Questions)</h2>
+<p>Choose the correct option in each sentence.</p>
+
+<form id="quiz">
+
+<div class="question">
+1. If he ______ harder, he will pass the exam.
+<br>
+<select name="q1">
+    <option>studies</option>
+    <option>will study</option>
+    <option>studied</option>
+</select>
+</div>
+
+<div class="question">
+2. She will feel better if she ______ some fresh air.
+<br>
+<select name="q2">
+    <option>gets</option>
+    <option>will get</option>
+    <option>got</option>
+</select>
+</div>
+
+<div class="question">
+3. If we ______ the early train, we’ll arrive before lunch.
+<br>
+<select name="q3">
+    <option>catch</option>
+    <option>will catch</option>
+    <option>caught</option>
+</select>
+</div>
+
+<div class="question">
+4. They will cancel the match if it ______ too windy.
+<br>
+<select name="q4">
+    <option>is</option>
+    <option>will be</option>
+    <option>was</option>
+</select>
+</div>
+
+<div class="question">
+5. If you ______ me later, I’ll explain everything.
+<br>
+<select name="q5">
+    <option>call</option>
+    <option>will call</option>
+    <option>called</option>
+</select>
+</div>
+
+<div class="question">
+6. We’ll miss the beginning of the film if we ______ now.
+<br>
+<select name="q6">
+    <option>don’t leave</option>
+    <option>won’t leave</option>
+    <option>didn’t leave</option>
+</select>
+</div>
+
+<div class="question">
+7. If the dog ______ its lead, it will run into the garden.
+<br>
+<select name="q7">
+    <option>sees</option>
+    <option>will see</option>
+    <option>saw</option>
+</select>
+</div>
+
+<div class="question">
+8. You’ll save money if you ______ your lunch from home.
+<br>
+<select name="q8">
+    <option>bring</option>
+    <option>will bring</option>
+    <option>brought</option>
+</select>
+</div>
+
+<div class="question">
+9. He will be upset if they ______ without him.
+<br>
+<select name="q9">
+    <option>leave</option>
+    <option>will leave</option>
+    <option>left</option>
+</select>
+</div>
+
+<div class="question">
+10. If the weather ______ warm tomorrow, we’ll go cycling.
+<br>
+<select name="q10">
+    <option>is</option>
+    <option>will be</option>
+    <option>was</option>
+</select>
+</div>
+
+<!-- FUTURE CLAUSE FIRST -->
+
+<div class="question">
+11. We’ll start the match if everyone ______ on time.
+<br>
+<select name="q11">
+    <option>arrives</option>
+    <option>will arrive</option>
+    <option>arrived</option>
+</select>
+</div>
+
+<div class="question">
+12. I’ll help you with your project if you ______ the instructions carefully.
+<br>
+<select name="q12">
+    <option>read</option>
+    <option>will read</option>
+    <option>reads</option>
+</select>
+</div>
+
+<div class="question">
+13. She’ll buy the jacket if it ______ in her size.
+<br>
+<select name="q13">
+    <option>comes</option>
+    <option>will come</option>
+    <option>came</option>
+</select>
+</div>
+
+<div class="question">
+14. They’ll be annoyed if we ______ the tickets late.
+<br>
+<select name="q14">
+    <option>book</option>
+    <option>will book</option>
+    <option>booked</option>
+</select>
+</div>
+
+<div class="question">
+15. I’ll text you if the coach ______ early.
+<br>
+<select name="q15">
+    <option>arrives</option>
+    <option>will arrive</option>
+    <option>arrived</option>
+</select>
+</div>
+
+<button type="button" class="btn" onclick="showAnswers()">Show Answers</button>
+
+</form>
+
+<div id="answers" class="answers" style="display:none;">
+<h2>Correct Answers</h2>
+<ol>
+    <li>studies</li>
+    <li>gets</li>
+    <li>catch</li>
+    <li>is</li>
+    <li>call</li>
+    <li>don’t leave</li>
+    <li>sees</li>
+    <li>bring</li>
+    <li>leave</li>
+    <li>is</li>
+    <li>arrives</li>
+    <li>read</li>
+    <li>comes</li>
+    <li>book</li>
+    <li>arrives</li>
+</ol>
+</div>
+
+<script>
+function showAnswers() {
+    document.getElementById('answers').style.display = 'block';
+}
+</script>
+
 </body>
 </html>
+
