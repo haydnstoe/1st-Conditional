@@ -2,7 +2,14 @@
 <html lang="en-GB">
 <head>
     <meta charset="UTF-8">
+
+    <!-- Cache-proofing -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
     <title>First Conditional – Cloze Test</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,6 +49,7 @@
 
 <form id="quiz">
 
+<!-- QUESTIONS (unchanged) -->
 <div class="question">
 1. If you ______ the door quietly, nobody will notice.
 <br>
@@ -231,6 +239,9 @@
     <li>arrives</li>
 </ol>
 </div>
+
+<!-- Cache-busting script version -->
+<script src="script.js?v=<?= Date.now() ?>"></script>
 
 <script>
 // Fisher–Yates shuffle
